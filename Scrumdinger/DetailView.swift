@@ -31,6 +31,13 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: /*@START_MENU_TOKEN@*/.ignore/*@END_MENU_TOKEN@*/)
             }
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees, id: \.self) { attendee in
+                    Label(attendee, systemImage: "person")
+                        .accessibilityLabel(Text("Person"))
+                        .accessibilityValue(Text(attendee))
+                }
+            }
         }
         .listStyle(InsetGroupedListStyle())
     }
