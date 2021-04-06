@@ -22,6 +22,8 @@
 		D340F399261D069B000CE73A /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F398261D069B000CE73A /* ScrumProgressViewStyle.swift */; };
 		D340F39E261D08A6000CE73A /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F39D261D08A6000CE73A /* ScrumTimer.swift */; };
 		D340F3A1261D1E54000CE73A /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F3A0261D1E54000CE73A /* MeetingFooterView.swift */; };
+		D340F3A4261D249F000CE73A /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F3A3261D249F000CE73A /* AVPlayer+Ding.swift */; };
+		D340F3A8261D24B2000CE73A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D340F3A7261D24B2000CE73A /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		D340F398261D069B000CE73A /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		D340F39D261D08A6000CE73A /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		D340F3A0261D1E54000CE73A /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		D340F3A3261D249F000CE73A /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		D340F3A7261D24B2000CE73A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		AA65BF4324F4604A007E4A1B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D340F3A3261D249F000CE73A /* AVPlayer+Ding.swift */,
 				AA65BF4424F4605F007E4A1B /* Color+Codable.swift */,
 				D340F381261BE2F7000CE73A /* DailyScrum.swift */,
 			);
@@ -86,6 +91,7 @@
 		AA8ACE8224F44E01007DA4D8 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				D340F3A6261D24B2000CE73A /* Resources */,
 				D340F398261D069B000CE73A /* ScrumProgressViewStyle.swift */,
 				AA65BF4324F4604A007E4A1B /* Models */,
 				AA8ACE8324F44E01007DA4D8 /* ScrumdingerApp.swift */,
@@ -118,6 +124,14 @@
 				AA8ACE9324F44FB6007DA4D8 /* LICENSE.txt */,
 			);
 			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		D340F3A6261D24B2000CE73A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D340F3A7261D24B2000CE73A /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,7 @@
 			files = (
 				AA8ACE9424F44FB6007DA4D8 /* LICENSE.txt in Resources */,
 				AA8ACE8B24F44E03007DA4D8 /* Preview Assets.xcassets in Resources */,
+				D340F3A8261D24B2000CE73A /* ding.wav in Resources */,
 				AA8ACE8824F44E03007DA4D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +208,7 @@
 				D340F382261BE2F7000CE73A /* DailyScrum.swift in Sources */,
 				D340F388261BE97C000CE73A /* ScrumsView.swift in Sources */,
 				D340F38F261BFCC8000CE73A /* EditView.swift in Sources */,
+				D340F3A4261D249F000CE73A /* AVPlayer+Ding.swift in Sources */,
 				D340F395261C384E000CE73A /* MeetingHeaderView.swift in Sources */,
 				AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */,
 				D340F3A1261D1E54000CE73A /* MeetingFooterView.swift in Sources */,
