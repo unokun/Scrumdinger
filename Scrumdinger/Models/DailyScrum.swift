@@ -43,3 +43,11 @@ extension DailyScrum {
         return Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
     }
 }
+extension DailyScrum {
+    mutating func update(from: DailyScrum.Data) {
+        self.title = from.title
+        self.lengthInMinutes = Int(from.lengthInMinutes)
+        self.attendees = from.attendees
+        self.color = from.color
+    }
+}

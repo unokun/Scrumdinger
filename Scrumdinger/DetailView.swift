@@ -57,7 +57,7 @@ struct DetailView: View {
                         isPresented = false
                     }, trailing: Button("Done") {
                         isPresented = false
-//                        scrum.update(from: data)
+                        scrum.update(from: data)
                     })
             }
         }
