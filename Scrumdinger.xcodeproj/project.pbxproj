@@ -18,6 +18,7 @@
 		D340F388261BE97C000CE73A /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F387261BE97C000CE73A /* ScrumsView.swift */; };
 		D340F38C261BF529000CE73A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F38B261BF529000CE73A /* DetailView.swift */; };
 		D340F38F261BFCC8000CE73A /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F38E261BFCC8000CE73A /* EditView.swift */; };
+		D340F395261C384E000CE73A /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F394261C384E000CE73A /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D340F387261BE97C000CE73A /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		D340F38B261BF529000CE73A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D340F38E261BFCC8000CE73A /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		D340F394261C384E000CE73A /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				D340F387261BE97C000CE73A /* ScrumsView.swift */,
 				D340F38B261BF529000CE73A /* DetailView.swift */,
 				D340F38E261BFCC8000CE73A /* EditView.swift */,
+				D340F394261C384E000CE73A /* MeetingHeaderView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				D340F382261BE2F7000CE73A /* DailyScrum.swift in Sources */,
 				D340F388261BE97C000CE73A /* ScrumsView.swift in Sources */,
 				D340F38F261BFCC8000CE73A /* EditView.swift in Sources */,
+				D340F395261C384E000CE73A /* MeetingHeaderView.swift in Sources */,
 				AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */,
 				D340F38C261BF529000CE73A /* DetailView.swift in Sources */,
 				AA65BF4524F4605F007E4A1B /* Color+Codable.swift in Sources */,
