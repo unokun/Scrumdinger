@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     let id: UUID
     var title: String
     var attendees: [String]
@@ -44,12 +44,10 @@ extension DailyScrum {
     var data: Data {
         return Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
     }
-}
-extension DailyScrum {
-    mutating func update(from: DailyScrum.Data) {
-        self.title = from.title
-        self.lengthInMinutes = Int(from.lengthInMinutes)
-        self.attendees = from.attendees
-        self.color = from.color
+    mutating func update(from data: DailyScrum.Data) {
+        self.title = data.title
+        self.lengthInMinutes = Int(data.lengthInMinutes)
+        self.attendees = data.attendees
+        self.color = data.color
     }
 }
