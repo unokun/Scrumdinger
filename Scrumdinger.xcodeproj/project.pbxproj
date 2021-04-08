@@ -28,6 +28,7 @@
 		D379E23D261D79930088214D /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E23C261D79930088214D /* ScrumData.swift */; };
 		D379E240261D80C60088214D /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E23F261D80C60088214D /* MeetingTimerView.swift */; };
 		D379E243261E90270088214D /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E242261E90270088214D /* SpeechRecognizer.swift */; };
+		D379E246261E9BCF0088214D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E245261E9BCF0088214D /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		D379E23C261D79930088214D /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		D379E23F261D80C60088214D /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		D379E242261E90270088214D /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		D379E245261E9BCF0088214D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				D340F394261C384E000CE73A /* MeetingHeaderView.swift */,
 				D340F3A0261D1E54000CE73A /* MeetingFooterView.swift */,
 				D379E23F261D80C60088214D /* MeetingTimerView.swift */,
+				D379E245261E9BCF0088214D /* HistoryView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				D340F38F261BFCC8000CE73A /* EditView.swift in Sources */,
 				D340F3A4261D249F000CE73A /* AVPlayer+Ding.swift in Sources */,
 				D379E23D261D79930088214D /* ScrumData.swift in Sources */,
+				D379E246261E9BCF0088214D /* HistoryView.swift in Sources */,
 				D379E240261D80C60088214D /* MeetingTimerView.swift in Sources */,
 				D340F395261C384E000CE73A /* MeetingHeaderView.swift in Sources */,
 				AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */,
