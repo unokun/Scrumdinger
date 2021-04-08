@@ -27,6 +27,7 @@
 		D340F3AC261D375C000CE73A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340F3AB261D375C000CE73A /* History.swift */; };
 		D379E23D261D79930088214D /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E23C261D79930088214D /* ScrumData.swift */; };
 		D379E240261D80C60088214D /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E23F261D80C60088214D /* MeetingTimerView.swift */; };
+		D379E243261E90270088214D /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379E242261E90270088214D /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		D340F3AB261D375C000CE73A /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		D379E23C261D79930088214D /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		D379E23F261D80C60088214D /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		D379E242261E90270088214D /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				AA65BF4424F4605F007E4A1B /* Color+Codable.swift */,
 				D340F381261BE2F7000CE73A /* DailyScrum.swift */,
 				D379E23C261D79930088214D /* ScrumData.swift */,
+				D379E242261E90270088214D /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				D340F382261BE2F7000CE73A /* DailyScrum.swift in Sources */,
 				D340F388261BE97C000CE73A /* ScrumsView.swift in Sources */,
 				D340F3AC261D375C000CE73A /* History.swift in Sources */,
+				D379E243261E90270088214D /* SpeechRecognizer.swift in Sources */,
 				D340F38F261BFCC8000CE73A /* EditView.swift in Sources */,
 				D340F3A4261D249F000CE73A /* AVPlayer+Ding.swift in Sources */,
 				D379E23D261D79930088214D /* ScrumData.swift in Sources */,
